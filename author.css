@@ -1,0 +1,272 @@
+body, h1, p, a, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  /* Header */
+  .header {
+    background-color: #1c1c3c;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .logo a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav_iteam {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  
+  .nav_iteam a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav_iteam a:hover {
+    color: #FFD050; 
+  }
+  
+  .subscribe-btn {
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #1c1c3c;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .subscribe-btn:hover{
+    background-color:#FFD050 ;
+  }
+
+
+  .hero_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #b7b6be;
+    padding: 40px 20px;
+    position: relative;
+  }
+  
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  .hero-content p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .hero-divider {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, #ffaa00 50%, #6b5b95 50%);
+    margin-top: 20px;
+  }
+  
+  .posts-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .post {
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+  
+  .category {
+    font-size: 12px;
+    color: #6b5b95;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+
+  /* Footer */
+  .footer_section {
+    background-color: #35374e;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  .footer_container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer_upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footer_upper h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .footer_upper nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer_upper nav ul li {
+    display: inline;
+  }
+  
+  .footer_upper nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .footer_upper nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .subscribe_section {
+    background-color: #4C4C4C;
+    padding: 40px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .subscribe_section p {
+    font-size: 2rem;
+    margin: 0;
+    flex: 1;
+  }
+  
+  .subscribe_form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subscribe_form input {
+    padding: 10px;
+    font-size: 1rem;
+    background: #4C4C4C;
+    border: 1px solid #ffD050;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .subscribe_form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffD050;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .subscribe_form button:hover {
+    background-color: #ff9800;
+  }
+  
+  .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer_bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+ 
+  }
